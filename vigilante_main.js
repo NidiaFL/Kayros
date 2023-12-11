@@ -59,4 +59,11 @@ function verDetalles(cita) {
 
     // Show the modal
     $("#modalDetalles").modal("show");
+
+    return cita.id_Cita ;
 }   
+
+function guardarTextoCita(){
+    verDetalles(cita = 1);
+    alert("<p>ID Cita: " + cita.id_Cita + "</p>");
+}

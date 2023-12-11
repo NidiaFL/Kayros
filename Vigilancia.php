@@ -66,6 +66,7 @@
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
                 <!-- Modifica el botón Guardar -->
                 <button type="button" class="btn btn-primary" onclick="guardarTextoCita()">Guardar</button>
+  
             </div>
         </div>
     </div>
